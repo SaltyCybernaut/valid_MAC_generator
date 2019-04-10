@@ -1,5 +1,5 @@
 # valid_MAC_generator
-Generate random MAC addresses with a valid manufacturer prefix. The manufacturer prefixes are obtained from *oui.csv* which is available from IEEE at https://regauth.standards.ieee.org/standards-ra-web/pub/view.html#registries
+Generate random MAC addresses with a valid manufacturer prefix. The manufacturer prefixes are obtained from *oui.csv* which is available from IEEE at http://standards-oui.ieee.org/oui/oui.csv
 
 *serializeCSV.py* consumes oui.csv and creates a Python List object, serialized it and saves it to a file. This is to improve the performance of *validMAC.py*
 
