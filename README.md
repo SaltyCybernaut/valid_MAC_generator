@@ -5,18 +5,18 @@ Generate random MAC addresses with a valid manufacturer prefix. The manufacturer
 
 *validMAC.py* picks a random manufacturer prefix and concatinates it to a randomly generated suffix
 
-##Dependencies
+## Dependencies
 The only dependency is Python, the two scripts assume **python3.5** is available, if it is not change the first line of each file to the version of Python available on the system.
 
-##The two files must be made executable with:
+## The two files must be made executable with:
 ```bash
 chmod +x serializeCSV.py
 chmod +x validMAC.py
 ```
-##This is how you use them:
+## This is how you use them:
 ```
 ./serializeCSV.py --csv=oui.csv --file=serObj
 ./validMAC.py --list=serObj
 ```
-##Output
-the output is a single MAC address sent to the console with each octet separated by colons like this **01:23:45:67:89:AB**
+## Output
+the output is a single MAC address sent to stdout with each octet separated by colons like this **01:23:45:67:89:AB**
